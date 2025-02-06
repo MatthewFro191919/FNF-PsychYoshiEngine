@@ -1,12 +1,23 @@
-haxelib install flixel
-haxelib install flixel-addons
+
+haxelib install lime 8.1.2
+haxelib install openfl 9.3.3
+haxelib install flixel 5.6.1
+haxelib install flixel-addons 3.2.2
+haxelib install flixel-tools 1.5.1
+haxelib install hscript-iris 1.1.3
+haxelib install tjson 1.4.0
+haxelib install hxdiscord_rpc 1.2.4
+haxelib install hxvlc 1.9.2
 haxelib install flixel-ui
 haxelib install spinehaxe
 haxelib git discord_rpc_yce https://github.com/YoshiCrafter29/linc_discord-rpc
 haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
 haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
-haxelib git flixel-textureatlas-yoshiengine https://github.com/YoshiCrafter29/Flixel-TextureAtlas-YoshiCrafterEngine
-haxelib git hscript-yoshiengine https://github.com/YoshiCrafter29/hscript-improved
-haxelib git flixel-yc29 https://github.com/YoshiCrafter29/flixel
-haxelib git hxCodec https://github.com/polybiusproxy/hxCodec
+haxelib git flixel-textureatlas-yoshiengine https://github.com/Smokey555/Flixel-TextureAtlas
+haxelib git hscript-yoshiengine https://github.com/CodenameCrew/hscript-improved
+haxelib git flixel-yc29 https://github.com/Yoshman29-FunkinArchive/flixel
 haxelib git spinehaxe https://github.com/bendmorris/spinehaxe
+haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e
+haxelib git linc_luajit https://github.com/superpowers04/linc_luajit 1906c4a96f6bb6df66562b3f24c62f4c5bba14a7
+haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cdc4632397ef3504d464e90
+haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio.git cbf91e2180fd2e374924fe74844086aab7891666
