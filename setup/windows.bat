@@ -16,7 +16,7 @@ haxelib install hxvlc 1.9.2
 haxelib install flixel-ui
 haxelib install spinehaxe
 haxelib install hxCodec 2.5.1
-haxelib git discord_rpc_yce https://github.com/YoshiCrafter29/linc_discord-rpc
+haxelib git discord_rpc_yce https://github.com/LEON-BROTHER/discord_rpc_yce
 haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
 haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
 haxelib git flixel-textureatlas-yoshiengine https://github.com/Smokey555/Flixel-TextureAtlas
