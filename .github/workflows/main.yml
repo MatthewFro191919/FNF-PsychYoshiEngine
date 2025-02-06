@@ -43,8 +43,8 @@ jobs:
           haxelib install hscript-iris 1.1.3
           haxelib install tjson 1.4.0
           haxelib install hxdiscord_rpc 1.2.4
-          haxelib git discord_rpc_yce https://github.com/YoshiCrafter29/linc_discord-rpc
-          haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git discord_rpc_yce https://github.com/LEON-BROTHER/discord_rpc_yce
+          haxelib git hxvm-luajit https://github.conebulazorua/hxvm-luajit
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib git flixel-textureatlas-yoshiengine https://github.com/YoshiCrafter29/Flixel-TextureAtlas-YoshiCrafterEngine
           haxelib git hscript-yoshiengine https://github.com/YoshiCrafter29/hscript-improved
