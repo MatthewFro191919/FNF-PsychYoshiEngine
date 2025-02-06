@@ -16,12 +16,12 @@ import flixel.FlxSprite;
 #if sys
 import sys.io.File;
 import sys.FileSystem;
-import flash.media.Sound;
 #end
 import flixel.graphics.FlxGraphic;
 import openfl.display.BitmapData;
 import haxe.Json;
 
+import flash.media.Sound;
 
 using StringTools;
 
@@ -201,26 +201,22 @@ class Paths
 		return 'assets/videos/$key.$VIDEO_EXT';
 	}
 
-        #if sys
 	static public function sound(key:String, ?library:String):Sound
 	{
 		var sound:Sound = returnSound('sounds', key, library);
 		return sound;
 	}
-        #end
 
 	inline static public function soundRandom(key:String, min:Int, max:Int, ?library:String)
 	{
 		return sound(key + FlxG.random.int(min, max), library);
 	}
-	
-        #if sys
+
 	inline static public function music(key:String, ?library:String):Sound
 	{
 		var file:Sound = returnSound('music', key, library);
 		return file;
 	}
-        #end
 
 	inline static public function voices(song:String):Any
 	{
